@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStax.AstraDB.Helper.Abstractions", "src\DataStax.AstraDB.Helper.Abstractions\DataStax.AstraDB.Helper.Abstractions.csproj", "{521F6351-0D72-4832-961B-F25E39B86C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStax.AstraDB.Helper.DataApi.Rest", "src\DataStax.AstraDB.Helper.DataApi.Rest\DataStax.AstraDB.Helper.DataApi.Rest.csproj", "{938C0F13-B7AF-4BD9-8DA6-9CFAD335EDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStax.AstraDB.Helper.DataApi.Sdk", "src\DataStax.AstraDB.Helper.DataApi.Sdk\DataStax.AstraDB.Helper.DataApi.Sdk.csproj", "{AE3049B9-6D9B-48DE-89C8-AD2A8ED55043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStax.AstraDB.Helper.Tests", "tests\DataStax.AstraDB.Helper.Tests\DataStax.AstraDB.Helper.Tests.csproj", "{8DB9EEFF-2BC7-40C9-97AE-8C016EEC5A69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CD3F25A9-163F-4197-9E36-DBE77751C9AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{CCB0E2E1-2554-4E2E-A2D1-033B138E6A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiSample", "example\RestApiSample\RestApiSample.csproj", "{4E721140-2BA5-4BF4-8621-4ECC38B30838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdkApiSample", "example\SdkApiSample\SdkApiSample.csproj", "{81E50F2A-D1E5-477E-A2C4-C782E60ECD8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataApi", "DataApi", "{6895BC09-50FD-4629-A9B1-24B7FC0CCFC0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStax.AstraDB.Helper.Driver", "src\DataStax.AstraDB.Helper.Driver\DataStax.AstraDB.Helper.Driver.csproj", "{C7080581-0FEB-49A8-ACA2-8724D972E746}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driver", "Driver", "{E1FA95DB-54C5-4E8E-BA56-528727E078DD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverSample", "example\DriverSample\DriverSample.csproj", "{AD55D7B4-3C93-4513-A44F-BE73DBDE35E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521F6351-0D72-4832-961B-F25E39B86C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521F6351-0D72-4832-961B-F25E39B86C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521F6351-0D72-4832-961B-F25E39B86C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521F6351-0D72-4832-961B-F25E39B86C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938C0F13-B7AF-4BD9-8DA6-9CFAD335EDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938C0F13-B7AF-4BD9-8DA6-9CFAD335EDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938C0F13-B7AF-4BD9-8DA6-9CFAD335EDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938C0F13-B7AF-4BD9-8DA6-9CFAD335EDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3049B9-6D9B-48DE-89C8-AD2A8ED55043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3049B9-6D9B-48DE-89C8-AD2A8ED55043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3049B9-6D9B-48DE-89C8-AD2A8ED55043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3049B9-6D9B-48DE-89C8-AD2A8ED55043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB9EEFF-2BC7-40C9-97AE-8C016EEC5A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB9EEFF-2BC7-40C9-97AE-8C016EEC5A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB9EEFF-2BC7-40C9-97AE-8C016EEC5A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB9EEFF-2BC7-40C9-97AE-8C016EEC5A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E721140-2BA5-4BF4-8621-4ECC38B30838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E721140-2BA5-4BF4-8621-4ECC38B30838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E721140-2BA5-4BF4-8621-4ECC38B30838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E721140-2BA5-4BF4-8621-4ECC38B30838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E50F2A-D1E5-477E-A2C4-C782E60ECD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E50F2A-D1E5-477E-A2C4-C782E60ECD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E50F2A-D1E5-477E-A2C4-C782E60ECD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E50F2A-D1E5-477E-A2C4-C782E60ECD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7080581-0FEB-49A8-ACA2-8724D972E746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7080581-0FEB-49A8-ACA2-8724D972E746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7080581-0FEB-49A8-ACA2-8724D972E746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7080581-0FEB-49A8-ACA2-8724D972E746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD55D7B4-3C93-4513-A44F-BE73DBDE35E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD55D7B4-3C93-4513-A44F-BE73DBDE35E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD55D7B4-3C93-4513-A44F-BE73DBDE35E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD55D7B4-3C93-4513-A44F-BE73DBDE35E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{521F6351-0D72-4832-961B-F25E39B86C44} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{938C0F13-B7AF-4BD9-8DA6-9CFAD335EDC8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{AE3049B9-6D9B-48DE-89C8-AD2A8ED55043} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8DB9EEFF-2BC7-40C9-97AE-8C016EEC5A69} = {CD3F25A9-163F-4197-9E36-DBE77751C9AF}
+		{4E721140-2BA5-4BF4-8621-4ECC38B30838} = {6895BC09-50FD-4629-A9B1-24B7FC0CCFC0}
+		{81E50F2A-D1E5-477E-A2C4-C782E60ECD8E} = {6895BC09-50FD-4629-A9B1-24B7FC0CCFC0}
+		{6895BC09-50FD-4629-A9B1-24B7FC0CCFC0} = {CCB0E2E1-2554-4E2E-A2D1-033B138E6A98}
+		{C7080581-0FEB-49A8-ACA2-8724D972E746} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E1FA95DB-54C5-4E8E-BA56-528727E078DD} = {CCB0E2E1-2554-4E2E-A2D1-033B138E6A98}
+		{AD55D7B4-3C93-4513-A44F-BE73DBDE35E6} = {E1FA95DB-54C5-4E8E-BA56-528727E078DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9790147-8B87-4A5E-B1E0-05AED3D7EFD2}
+	EndGlobalSection
+EndGlobal

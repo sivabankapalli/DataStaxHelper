@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.9.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.8" />
+    <PackageReference Include="Xunit.SkippableFact" Version="1.4.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\example\RestApiSample\RestApiSample.csproj" />
+    <ProjectReference Include="..\..\example\SdkApiSample\SdkApiSample.csproj" />
+    <ProjectReference Include="..\..\src\DataStax.AstraDB.Helper.Abstractions\DataStax.AstraDB.Helper.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\DataStax.AstraDB.Helper.DataApi.Rest\DataStax.AstraDB.Helper.DataApi.Rest.csproj" />
+    <ProjectReference Include="..\..\src\DataStax.AstraDB.Helper.DataApi.Sdk\DataStax.AstraDB.Helper.DataApi.Sdk.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.test.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
+</Project>

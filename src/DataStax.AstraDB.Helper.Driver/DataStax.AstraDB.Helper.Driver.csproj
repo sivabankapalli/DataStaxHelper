@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataStax.AstraDB.Helper.Abstractions\DataStax.AstraDB.Helper.Abstractions.csproj" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <!-- Ensure the SCB zip is copied to the output folder next to the .exe -->
+    <None Update="secure-connect-dev-cdk-db.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup> 
+  
+</Project>
